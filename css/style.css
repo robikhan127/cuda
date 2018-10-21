@@ -1,0 +1,476 @@
+/*
+Author: Al Nur Tarique Robi
+Front-End Designer
+E-mail: khanrobi127@gmail.com
+*/
+
+/*  
+=====Index=====
+1.Global CSS
+2.Header
+3.Services
+4.Our Team
+5.SKills
+6.Portfolio
+7.About Us
+8.Contact
+9.Footer
+ */
+
+ /* Global CSS */
+ @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Open+Sans:300,400,600,700,800|Playfair+Display+SC:400,900');
+ body{
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 15px;
+ 	color: #111111;
+ }
+ h1{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 36px;
+ }
+ h2{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 30px;
+ }
+ h3{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 30px;
+ }
+ h4{
+ 	font-family: 'Lato', sans-serif;
+ }
+ h5{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 22px;
+ }
+ h6{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 18px;
+ }
+ p{
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 18px;
+ 	color: #111111;
+ }
+ a{
+ 	color: #111111;
+ }
+ a:hover{
+ 	color: #e8bf5d;
+ 	text-decoration: none;
+ }
+section {
+  padding: 100px 0;
+}
+.img-center{
+ 	display: block;
+ 	margin: 0 auto;
+ }
+ .row-margin{
+ 	margin-top: 80px;
+ }
+
+/** Header Section CSS **/
+.bg-dark {
+    background-color: #87509C!important;
+}
+.nav-link {
+    color: #fff!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    margin-left: 5px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    background-color: rgba(100,58,121,.7);
+    border-radius: 5px;
+}
+dl, ol, ul {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+header{
+	background-color: #87509C;
+	height: 100vh;
+}
+header h1 {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin: 100px auto;
+    width: 85%;
+    margin-bottom: 0px;
+}
+header .btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #eb7d4b;
+    color: #fff;
+    padding: 15px 40px;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.btn:focus, .btn:hover {
+    text-decoration: none;
+    background-color: #f56524;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+	box-shadow: none;
+}
+
+/** Service Section CSS **/
+.services{
+	background-color: #17c2a4;
+}
+.services h2{
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.services .border {
+    border: 2px solid #14a58c!important;
+    width: 10%;
+    display: block;
+    margin: 14px auto;
+}
+.services p{
+	color: #fff;
+	width: 60%;
+    display: block;
+    margin: 30px auto;
+}
+.service-info img {
+    margin-top: 50px;
+}
+.service-info h4 {
+    color: #fff;
+    margin: 35px 0px 0px 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.service-info p {
+    width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+}
+/** Team Section CSS **/
+.team{
+	background-color: #e7f1f8;
+}
+.team h2{
+	color: #3c4761;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.team .border {
+    border: 2px solid #c8d9e5!important;
+    width: 10%;
+    display: block;
+    margin: 14px auto;
+}
+.team p{
+	color: #3c4761;
+}
+.team-member img{
+    margin-top: 60px;
+    margin-bottom: 24px;
+}
+.team-member h6{
+	color: #30bae7;
+    margin-bottom: 25px;
+}
+.team-member p{
+	color: #3c4761;
+}
+.team-member .fa{
+	color: #fff;
+	font-size: 20px;
+	margin-left: 8px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	transition: ease all 0.4s;
+	-webkit-transition: ease all 0.4s;
+	-moz-transition: ease all 0.4s;
+	-o-transition: ease all 0.4s;
+}
+.team-member .fa:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+.team-member .fa-facebook{
+    background-color: #bdd1df;
+    border-radius: 100%;
+    padding: 10px 14px;
+}
+.team-member .fa-twitter{
+    background-color: #bdd1df;
+    border-radius: 100%;
+    padding: 10px 12px;
+}
+.team-member .fa-linkedin{
+    background-color: #bdd1df;
+    border-radius: 100%;
+    padding: 10px 12px;
+}
+.team-member .fa-envelope{
+    background-color: #bdd1df;
+    border-radius: 100%;
+    padding: 10px 12px;
+}
+
+/** Skills Section CSS **/
+.skills h2{
+	color: #3c4761;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.skills .border {
+    border: 2px solid #dfe8ed!important;
+    width: 10%;
+    display: block;
+    margin: 14px auto;
+}
+.skills p{
+	color: #3c4761;
+	width: 60%;
+    display: block;
+    margin: 15px auto;
+}
+.skills-info img{
+	margin-top: 60px;
+}
+.skills-info h5 {
+    color: #3c4761;
+    margin: 35px 0px 0px 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/** Portfolio Section CSS **/
+.portfolio{
+	background-color: #ffdd99;
+}
+.portfolio h2{
+	color: #393939;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.border {
+    border: 2px solid #e5c37f!important;
+    width: 10%;
+    display: block;
+    margin: 14px auto;
+}
+.portfolio p{
+	color: #393939;
+	width: 60%;
+    display: block;
+    margin: 15px auto;
+}
+.portfolio img{
+	margin-top: 80px;
+	margin-bottom: 25px;
+	width: 100%;
+}
+.portfolio h5{
+	color: #393939;
+}
+.portfolio .btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #17c2a4;
+    color: #fff;
+    padding: 15px 40px;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.portfolio .btn:hover{
+	cursor: pointer;
+	background-color: #19b79b;
+}
+/** About Us Section CSS **/
+.about-us{
+	background-color: #d74680;
+}
+.about-us h2{
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.about-us .border {
+    border: 2px solid #b73c6d!important;
+    width: 10%;
+    display: block;
+    margin: 14px auto;
+}
+.about-us p{
+	color: #fff;
+	width: 60%;
+    display: block;
+    margin: 15px auto;
+}
+.about-us img{
+	width: 100%;
+}
+.comment p {
+    width: 100%;
+    font-style: italic;
+    margin: 0px;
+}
+.comment h5 {
+    color: #fff;
+    font-weight: 700;
+}
+.comment h6 {
+    color: #fcd397;
+    font-size: 15px;
+}
+/**Contact Section CSS **/
+.contact{
+	background-color: #3c5499;
+}
+.contact h2{
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.contact .border {
+    border: 2px solid #273a71!important;
+    width: 10%;
+    display: block;
+    margin: 14px auto;
+}
+.contact p{
+	color: #fff;
+}
+form{
+	margin-top: 30px;
+}
+.namef{
+    width: 47%;
+    margin-right: 39px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #273a71;
+    border: none;
+    border-radius: 4px;
+}
+.emailf{
+    width: 47%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #273a71;
+    border: none;
+    border-radius: 4px;
+}
+.message{
+	width: 100%;
+    height: 150px;
+    padding: 10px;
+    background-color: #273a71;
+    border: none;
+    border-radius: 4px;
+}
+form .btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #17c2a4;
+    color: #fff;
+    padding: 15px 40px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+form .btn:hover{
+	cursor: pointer;
+	background-color: #19b79b;
+}
+/** Footer Section CSS **/
+footer{
+	background-color: #344b8e;
+}
+footer h5{
+    color: #fff;
+    margin: 30px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+footer h5:hover{
+	cursor: pointer;
+	color: #30bae7;
+}
+
+/** Media Query Codes **/
+@media screen and (max-width: 500px){
+	section {
+  padding: 50px 0;
+}
+header h1 {
+    margin: -20px auto;
+    font-size: 34px;
+}
+.services h2 {
+    font-size: 27px;
+}
+.services p {
+    width: 100%;
+}
+.skills p {
+    width: 100%;
+}
+.portfolio p {
+    width: 100%;
+}
+.portfolio img {
+    margin-top: 50px;
+}
+.about-us p {
+    margin: 0px auto;
+}
+.about-us img {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.about-us p {
+    text-align: center;
+    margin: 15px auto;
+}
+.comment h5 {
+    text-align: center;
+}
+.comment h6 {
+    text-align: center;
+}
+.contact p {
+    font-size: 14px;
+}
+.namef {
+    width: 49%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: #273a71;
+    border: none;
+    border-radius: 4px;
+}
+.emailf {
+    width: 49%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #273a71;
+    border: none;
+    border-radius: 4px;
+}
+footer h5 {
+    color: #fff;
+    margin: 12px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+}
